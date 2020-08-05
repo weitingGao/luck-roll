@@ -15,7 +15,7 @@ import 'luck-roll/dist/luck-roll.min.css'
 ```
 # demo
 
-### [在线demo page预览](https://hengshanmwc.github.io/grid-roll/dist/index.html)
+### [在线demo page预览](https://weitingGao.github.io/luck-roll/dist/index.html)
 
 ```html
 <template>

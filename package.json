@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hengshanMWC/grid-roll"
+    "url": "git+https://github.com/weitingGao/luck-roll"
   },
   "private": false,
   "author": "kosen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guanlinwu/grid-roll.git/issues"
+    "url": "https://github.com/weitingGao/luck-roll.git/issues"
   },
-  "homepage": "https://github.com/guanlinwu/grid-roll.git#readme",
+  "homepage": "https://github.com/weitingGao/luck-roll.git#readme",
   "dependencies": {
     "vue": "^2.6.8",
     "vue-router": "^3.0.6"
