@@ -26,7 +26,7 @@ export default {
     },
     defaultSite: { // 默认位置
       type: String,
-      default: '0'
+      default: ''
     }
   },
   data () {

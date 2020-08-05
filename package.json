@@ -1,6 +1,6 @@
 {
   "name": "luck-roll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "滚动抽奖(万能的老虎机)",
   "main": "dist/luck-roll.min.js",
   "scripts": {
