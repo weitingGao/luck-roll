@@ -2,7 +2,7 @@
   <div class="demo-dialSudoku">
     <luck-roll>
       <div class="game-wrap">
-        <luck-prize ref="lottery" :speekSet="speekSet" :total=2128 :awardNum=12>
+        <luck-prize ref="lottery" :speekSet="speekSet" :total=2128 :awardNum=12 :runCount="runCount">
           <div class="game-item" v-for="(item, index) in speekSet" :key="index">
           </div>
         </luck-prize>
@@ -20,7 +20,8 @@ export default {
   name: 'demo-dialSudoku',
   data () {
     return {
-      speekSet: [1500, 1800, 2000] // 设置滚动速度
+      speekSet: [2500, 3000, 3500], // 设置滚动速度
+      runCount: 2
     }
   },
   components: {

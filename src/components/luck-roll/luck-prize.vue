@@ -27,6 +27,10 @@ export default {
     defaultSite: { // 默认位置
       type: String,
       default: ''
+    },
+    runCount: {
+      type: Number,
+      default: 1
     }
   },
   data () {
@@ -69,7 +73,7 @@ export default {
       this.running = false
       for (let i = 0; i < idxArr.length; i++) {
         let offsetRem = floatMath.numMulti(this.offset, (idxArr[i] - 1))
-        let toChange = floatMath.numAdd(floatMath.numAdd(this.circleHeight, this.oldOffset[i]), floatMath.numAdd(offsetRem, this.andOffset[i]))
+        let toChange = floatMath.numAdd(floatMath.numAdd(floatMath.numMulti(this.circleHeight, this.runCount), this.oldOffset[i]), floatMath.numAdd(offsetRem, this.andOffset[i]))
         this.$set(this.newOffset, i, toChange)
         this.$set(this.oldOffset, i, this.newOffset[i])
         this.$set(this.andOffset, i, floatMath.numSub(this.circleHeight, offsetRem))
