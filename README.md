@@ -102,6 +102,7 @@ export default {
 | awardNum   |   一列奖品图奖品数	  |  Number  | 0 |
 | speekSet     |    滚动速度	    |  Array  | [1500, 1800, 2000] |
 | defaultSite    |   初始位置   |  String  | '' |
+| runCount    |   滚动圈数   |  Number  | 1 |
 
 > Event
 
